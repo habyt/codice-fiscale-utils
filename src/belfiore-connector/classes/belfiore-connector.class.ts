@@ -213,7 +213,7 @@ export default class BelfioreConnector {
      * Search places matching given name
      */
     public searchByName(name: string): BelfiorePlace[] | null {
-        return name ? [...this.scanData(name)] as BelfiorePlace[] : null;
+        return name ? Array.from(this.scanData(name)) as BelfiorePlace[] : null;
     }
 
     /**
