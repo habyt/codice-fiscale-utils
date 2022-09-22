@@ -17,8 +17,9 @@ class CheckDigitizer {
     public static checkDigit(codiceFiscale: string): CodiceFiscaleCRC | null {
         if (typeof codiceFiscale === "string" && new RegExp(PARTIAL_CF).test(codiceFiscale)) {
             const partialCF = codiceFiscale.substr(LASTNAME_OFFSET, CRC_OFFSET);
-            let partialCfValue = 0;
-            for (const charValue of this.evaluateChar(partialCF)) { partialCfValue += charValue as number; }
+            const partialCfValue =
+                (Array.from(this.evaluateChar(partialCF)) as number[])
+                    .reduce((accumulator, currentValue) => accumulator + currentValue, 0);
             return String.fromCharCode(partialCfValue % this.CRC_MOD + this.CHAR_OFFSET) as CodiceFiscaleCRC;
         }
         return null;
