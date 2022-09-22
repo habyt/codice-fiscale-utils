@@ -197,7 +197,7 @@ export default class BelfioreConnector {
      * Return belfiore places list
      */
     public toArray(): BelfiorePlace[] {
-        return [...this.scanData()] as BelfiorePlace[];
+        return Array.from(this.scanData()) as BelfiorePlace[];
     }
 
     public get provinces(): string[] {
