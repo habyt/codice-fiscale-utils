@@ -2,8 +2,8 @@
 
 ***The Final and definitive solution to handle the Italian Tax Code***
 
-***This is a fork of the original package that is using `date-fn`s instead of the `moment.js` for handling dates***
-Eventually it is supposed to the migrated back to the original package (in-progress).
+***This is a fork of the original package that is using `date-fn`s instead of the `moment.js` for handling dates.***
+
 
 [![NPM Version](https://img.shields.io/npm/v/@habyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@habyt/codice-fiscale-utils)
 [![NPM Downloads](https://img.shields.io/npm/dm/@habyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@habyt/codice-fiscale-utils)
