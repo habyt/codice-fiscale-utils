@@ -5,8 +5,8 @@
 ***This is a fork of the original package that is using `date-fn`s instead of the `moment.js` for handling dates.***
 
 
-[![NPM Version](https://img.shields.io/npm/v/@habyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@habyt/codice-fiscale-utils)
-[![NPM Downloads](https://img.shields.io/npm/dm/@habyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@habyt/codice-fiscale-utils)
+[![NPM Version](https://img.shields.io/npm/v/@holczhabyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@holczhabyt/codice-fiscale-utils)
+[![NPM Downloads](https://img.shields.io/npm/dm/@holczhabyt/codice-fiscale-utils.svg)](https://www.npmjs.com/package/@holczhabyt/codice-fiscale-utils)
 [![LICENSE](https://img.shields.io/badge/licese-MIT-gold.svg)](https://github.com/habyt/codice-fiscale-utils/blob/master/LICENSE)
 [![Read the Blog of the original author](https://img.shields.io/badge/blog-marketto-blue.svg)](http://blog.marketto.it)
 [![Buy a coffee to the original author](https://img.shields.io/badge/Ko--fi-donate-blueviolet)](https://ko-fi.com/marketto)
@@ -40,15 +40,15 @@ npm i -s @habyt/codice-fiscale-utils
 ## 🔧 USAGE
 ### NodeJs
 ```javascript
-const CodiceFiscaleUtils = require('@habyt/codice-fiscale-utils');
+const CodiceFiscaleUtils = require('@holczhabyt/codice-fiscale-utils');
 ```
 ### ES6
 ```javascript
-import CodiceFiscaleUtils from '@habyt/codice-fiscale-utils';
+import CodiceFiscaleUtils from '@holczhabyt/codice-fiscale-utils';
 ```
 ### TypeScript
 ```typescript
-import * as CodiceFiscaleUtils from '@habyt/codice-fiscale-utils';
+import * as CodiceFiscaleUtils from '@holczhabyt/codice-fiscale-utils';
 ```
 ### Client Side Script
 Note: date-fns is increadibly small, but as it supports treeshaking you can just load the neccessary modules (I will crate a list here soon.)
